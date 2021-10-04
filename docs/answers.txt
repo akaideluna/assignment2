@@ -1,0 +1,36 @@
+Git lab tutorials completed 10/4/2021
+GitHub Account setup : 08/01/2019
+
+
+
+
+
+1.$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 474 bytes | 474.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akaideluna/assignment2.git
+   26089b6..35c1d40  master -> master
+
+2. 9 / git rev-list --all --count
+
+3. $ git log -1 --pretty="format:%ci" README.md
+2021-10-04 18:22:47 -0400
+
+4.Branches help separate the work of developers from the work of others and helps make it easier to merge changes back into the master branch.Branches help maintain stability while each developer makes their own changes to the code.
+
+5.Git log displays snapshots of commits, it basically shows a history of all commmits. Git status looks at the working directory and tells you whether it is up to date and other information.
+
+6.$ git log --follow -- "Vehicle.h"
+
+7.$ git log --grep="file"
+
+8.Inheritance is when you can create a class from another class and they share functions and objects/attributes. So the if you create a child class using a parent class,that child will inherit all the function and attributes of the parent class. Polymorphism is when different classes can be used with the same code. Function overloading is an example of polymorphism.Encapsulation is when data is hidden to prevent unauthorized use.
+
+9.In the dictator and lieutenants workflow, there is one central repository and only the dictator can push to it. Devs must push changes to their assigned lietenant repo and then the dictator mergers the changes in the lieutenant repo into the central repo. In the integration manager workflow, developers can push to their own public repos and pull from the central repo.
+
+10. They would benefit because the dictator would resolve any arising conflicts with code merges. In the centralized workflow, each developer would be able to push to the central repo but they would have to resolve all conflicts before doing so. Habing the dictator manage conflicts would save time.
